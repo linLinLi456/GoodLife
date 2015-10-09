@@ -1,0 +1,28 @@
+//
+//  GoodLife-Prefix.pch
+//  GoodLife
+//
+//  Created by qianfeng on 15/9/26.
+//  Copyright (c) 2015年 李琳琳. All rights reserved.
+//
+
+#ifndef GoodLife_GoodLife_Prefix_pch
+#define GoodLife_GoodLife_Prefix_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//预编译文件 在这里定义宏 整个工程都可以访问
+#import "Define.h"
+
+
+#endif
+
+
+#endif
